@@ -1,6 +1,12 @@
 /* Hambuerger Menu */
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav_menu");
+const dashboardBtn = document.getElementById("dashboardBtn");
+const marketPlaceBtn = document.getElementById("marketPlaceBtn");
+const tablesBtn = document.getElementById("tablesBtn");
+const kanbaBtn = document.getElementById("kanbaBtn");
+const profileBtn = document.getElementById("profileBtn");
+const signInBtn = document.getElementById("signInBtn");
 
 hamburger.addEventListener("click", mobileMenu);
 
@@ -11,7 +17,7 @@ function mobileMenu() {
 
 /* Click item and close menu feature : */
 
-const navLink = document.querySelectorAll(".nav_link");
+const navLink = document.querySelectorAll(".nav_content__btn");
 
 navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
@@ -326,3 +332,30 @@ navs.forEach((nav) => {
 });
 
 renderCalendar();
+
+/* Rendering  Content  when clicked  sidebar btns */
+
+function contenBtn(btnIdName, contentBoxId) {
+  btnIdName.addEventListener("click", function () {
+    showContent(contentBoxId);
+  });
+}
+
+contenBtn(dashboardBtn, "dashboard");
+contenBtn(marketPlaceBtn, "marketPlace");
+contenBtn(tablesBtn, "tables");
+contenBtn(kanbaBtn, "kanba");
+contenBtn(profileBtn, "profile");
+contenBtn(signInBtn, "signIn");
+
+function showContent(id) {
+  const contentBox = document.querySelectorAll(".content_box");
+
+  contentBox.forEach((box) => {
+    if (box.id === id) {
+      box.classList.add("active");
+    } else {
+      box.classList.remove("active");
+    }
+  });
+}

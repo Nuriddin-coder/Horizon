@@ -19,54 +19,54 @@
         </a>
 
         <div class="sidebar_btn">
-          <div class="sidebar_btn__item">
+          <button id="dashboardBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/home-icon.svg"
               alt="home"
             />
-            <p>Dashboard</p>
-          </div>
-          <div class="sidebar_btn__item">
+            Dashboard
+          </button>
+          <button id="marketPlaceBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/market-icon.svg"
               alt="home"
             />
-            <p>NFT Marketplace</p>
-          </div>
-          <div class="sidebar_btn__item">
+            NFT Marketplace
+          </button>
+          <button id="tablesBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/tables-icon.svg"
               alt="home"
             />
-            <p>Tables</p>
-          </div>
-          <div class="sidebar_btn__item">
+            Tables
+          </button>
+          <button id="kanbaBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/kanban-icon.svg"
               alt="home"
             />
-            <p>Kanban</p>
-          </div>
-          <div class="sidebar_btn__item">
+            Kanban
+          </button>
+          <button id="profileBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/profile-icon.svg"
               alt="home"
             />
-            <p>Profile</p>
-          </div>
-          <div class="sidebar_btn__item">
+            Profile
+          </button>
+          <button id="signInBtn" class="sidebar_btn__item">
             <img
               class="sidebar_icon"
               src="./assets/icons/signIn-icon.svg"
               alt="home"
             />
-            <p>Sign In</p>
-          </div>
+            Sign In
+          </button>
         </div>
 
         <div class="sidebar__upgrade">
@@ -81,7 +81,8 @@
       </div>
 
       <div class="main_content">
-        <div class="container">
+        <!-- =====  Content Dashboard  ====== -->
+        <div id="dashboard" class="container content_box">
           <!-- Section Head Controll -->
           <div class="head">
             <img
@@ -126,30 +127,56 @@
                 </div>
               </div>
 
-              <li class="nav_item">
-                <img src="./assets/icons/home-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">Dashboard</a>
-              </li>
-              <li class="nav_item">
-                <img src="./assets/icons/market-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">NFT Marketplace</a>
-              </li>
-              <li class="nav_item">
-                <img src="./assets/icons/tables-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">Tables</a>
-              </li>
-              <li class="nav_item">
-                <img src="./assets/icons/kanban-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">Kanba</a>
-              </li>
-              <li class="nav_item">
-                <img src="./assets/icons/profile-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">Profile</a>
-              </li>
-              <li class="nav_item">
-                <img src="./assets/icons/signIn-icon.svg" alt="icon" />
-                <a href="#" class="nav_link">Sign In</a>
-              </li>
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
             </ul>
             <div class="hamburger">
               <span class="bar"></span>
@@ -767,6 +794,2466 @@
               <div class="starbucks_sale">
                 <img src="./assets/icons/fastfood-icon.svg" alt="fastfood" />
                 <p>10% cashback & off</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =====  Content MarketPlace  ====== -->
+        <div id="marketPlace" class="container content_box">
+          <!-- Section Head Controll -->
+          <div class="head">
+            <img
+              class="head_logo"
+              src="./assets/icons/logo-icon.svg"
+              alt="logo"
+            />
+
+            <div class="main_content__title">
+              <p>Pages / NFT Marketplace</p>
+              <h2>NFT Marketplace</h2>
+            </div>
+
+            <ul class="nav_menu">
+              <div class="head_controll__bar">
+                <div class="controll_search">
+                  <img src="./assets/icons/search-icon.svg" alt="search" />
+                  <input type="text" placeholder="Search" />
+                </div>
+
+                <div class="head_controll__bar_main">
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/notification-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="moon_icon"
+                    src="./assets//icons/moon-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/info-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="head_avatar__img"
+                    src="./assets/imgs/avatar-img.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="head_controll__bar controll_none">
+              <div class="controll_search">
+                <img src="./assets/icons/search-icon.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+              </div>
+
+              <div class="head_controll__bar_main">
+                <img
+                  class="same_icons"
+                  src="./assets//icons/notification-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="moon_icon"
+                  src="./assets//icons/moon-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="same_icons"
+                  src="./assets//icons/info-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="head_avatar__img"
+                  src="./assets/imgs/avatar-img.png"
+                  alt="avatar"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="market_main">
+            <div class="market_content">
+              <div class="market_content__banner">
+                <h1>Discover, collect, and sell extraordinary NFTs</h1>
+                <p>
+                  Enter in this creative world. Discover now the latest NFTs or
+                  start creating your own!
+                </p>
+
+                <div class="banner_btn">
+                  <button class="banner_btn_first">Discover now</button>
+                  <button class="banner_btn_second">Watch video</button>
+                </div>
+              </div>
+
+              <div class="content_card__title">
+                <h2>Trending NFTs</h2>
+
+                <div class="card_tab__link">
+                  <a href="#">Art</a>
+                  <a href="#">Music</a>
+                  <a href="#">Collectibles</a>
+                  <a href="#">Sports</a>
+                </div>
+              </div>
+
+              <div class="market_content__cards">
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img1.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>Abstract Colors</h3>
+                      <p>By Esthera Jackson</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 0.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img1.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>ETH AI Brain</h3>
+                      <p>By Nick Wilson</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 2.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img1.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>Mesh Gradients</h3>
+                      <p>By Will Smith</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 0.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img1.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>Swipe Circles</h3>
+                      <p>By Peter Will</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 0.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img5.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>Colorful Heaven</h3>
+                      <p>By Mark Benjamin</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 0.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+                <div class="market_card__item">
+                  <div class="market_card__item_img">
+                    <img src="./assets/imgs/market-card-img6.png" alt="" />
+                    <span class="market_card__heart_icon">
+                      <img
+                        src="./assets/icons/heart-icon.svg"
+                        alt="heart-icon"
+                      />
+                    </span>
+                  </div>
+
+                  <div class="market_card__info">
+                    <div class="market_card__info_title">
+                      <h3>3D Cubes Art</h3>
+                      <p>By Manny Gates</p>
+                    </div>
+
+                    <div class="market_card__persons">
+                      <img
+                        class="market_card__person_img"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_2"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <img
+                        class="market_card__person_img market_person_3"
+                        src="./assets/imgs/avatar-img.png"
+                        alt="img"
+                      />
+                      <p class="market_card__person_num">18+</p>
+                    </div>
+                  </div>
+
+                  <div class="market_card__price">
+                    <p>Current Bid: 0.91 ETH</p>
+                    <button>Place Bid</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="market_infos">
+              <div class="info_creator">
+                <div class="creator_des">
+                  <span class="creator_des__title">
+                    <h3>Top Creators</h3>
+                    <button>See all</button>
+                  </span>
+
+                  <span class="creator_des__tab">
+                    <p>Name</p>
+                    <p>Artworks</p>
+                    <p>Rating</p>
+                  </span>
+                </div>
+
+                <div class="creator_tab">
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img1.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img2.png" alt="img" />
+                      <a href="#">@andreea.1z</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">7032</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img3.png" alt="img" />
+                      <a href="#">@krl.ant1111</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">5021</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img4.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img6.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img7.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img2.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                  <div class="creator_tab__item">
+                    <div class="creator_tab__item_name">
+                      <img src="./assets/imgs/creator-tab-img1.png" alt="img" />
+                      <a href="#">@karl.will02</a>
+                    </div>
+
+                    <strong class="creator_tab__artworks">9821</strong>
+
+                    <div class="creator_progress">
+                      <span class="creator_progress_active"></span>
+                      <span class="creator_progressactiving"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="creator_history">
+                <span class="creator_des__title">
+                  <h3>History</h3>
+                  <button>See all</button>
+                </span>
+
+                <div class="creator_history__main">
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                  <div class="history_card__item">
+                    <div class="history_card__item_des">
+                      <img
+                        src="./assets/imgs/creator-history-img1.png"
+                        alt="img"
+                      />
+                      <span class="history_card__item_texts">
+                        <h3>Colorful Heaven</h3>
+                        <p>By Mark Benjamin</p>
+                      </span>
+                    </div>
+
+                    <strong class="history_eth__price">
+                      <img src="./assets/icons/eth-icon.svg" alt="icon" />
+                      1.30 ETH
+                    </strong>
+
+                    <p class="history_card__item_duration">30s ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =====  Content Tables  ====== -->
+        <div id="tables" class="container content_box">
+          <!-- Section Head Controll -->
+          <div class="head">
+            <img
+              class="head_logo"
+              src="./assets/icons/logo-icon.svg"
+              alt="logo"
+            />
+
+            <div class="main_content__title">
+              <p>Pages / Tables</p>
+              <h2>Tables</h2>
+            </div>
+
+            <ul class="nav_menu">
+              <div class="head_controll__bar">
+                <div class="controll_search">
+                  <img src="./assets/icons/search-icon.svg" alt="search" />
+                  <input type="text" placeholder="Search" />
+                </div>
+
+                <div class="head_controll__bar_main">
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/notification-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="moon_icon"
+                    src="./assets//icons/moon-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/info-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="head_avatar__img"
+                    src="./assets/imgs/avatar-img.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="head_controll__bar controll_none">
+              <div class="controll_search">
+                <img src="./assets/icons/search-icon.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+              </div>
+
+              <div class="head_controll__bar_main">
+                <img
+                  class="same_icons"
+                  src="./assets//icons/notification-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="moon_icon"
+                  src="./assets//icons/moon-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="same_icons"
+                  src="./assets//icons/info-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="head_avatar__img"
+                  src="./assets/imgs/avatar-img.png"
+                  alt="avatar"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="tables_first">
+            <div class="developmend_table">
+              <div class="developmend_table__title">
+                <h2>Developmend Table</h2>
+                <div class="chart_box__btn">
+                  <img src="./assets/icons/horizon-icon.svg" alt="icon" />
+                </div>
+              </div>
+
+              <div class="developmend_table__main">
+                <div class="developmend_table__name">
+                  <button class="developmend_table__name_item">
+                    Title
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Brands
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Date
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item none_table">
+                    Progress
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                </div>
+
+                <div class="developmend_table__content">
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <div class="developmend_table__content_brands">
+                      <img src="./assets/icons/apple-icon.svg" alt="apple" />
+                      <img src="./assets/icons/android-icon.svg" alt="apple" />
+                      <img src="./assets/icons/windows-icon.svg" alt="apple" />
+                    </div>
+                    <strong>12.Jan.2021</strong>
+
+                    <div class="developmend_table__content_progress">
+                      <p>73.2%</p>
+                      <div class="development_table__progress">
+                        <span class="development_table__progress_active"></span>
+                        <span
+                          class="development_table__progress_inactive"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="developmend_table">
+              <div class="developmend_table__title">
+                <h2>Check Table</h2>
+                <div class="chart_box__btn">
+                  <img src="./assets/icons/horizon-icon.svg" alt="icon" />
+                </div>
+              </div>
+
+              <div class="developmend_table__main">
+                <div class="developmend_table__name">
+                  <button class="developmend_table__name_item">
+                    Title
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Protsent
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Count
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item none_table">
+                    Date
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                </div>
+
+                <div class="developmend_table__content">
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <div class="check_table__name">
+                      <div class="checkbox_wrapper">
+                        <label class="checkbox_container">
+                          <input type="checkbox" checked />
+                          <span class="checkmark"></span>
+                        </label>
+                      </div>
+                      <p>Marketplace</p>
+                    </div>
+                    <p class="check_pet">17,6</p>
+                    <p class="check_cunt">2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tables_second">
+            <div class="developmend_table">
+              <div class="developmend_table__title">
+                <h2>Check Table</h2>
+                <div class="chart_box__btn">
+                  <img src="./assets/icons/horizon-icon.svg" alt="icon" />
+                </div>
+              </div>
+
+              <div class="developmend_table__main">
+                <div class="developmend_table__name">
+                  <button class="developmend_table__name_item">
+                    Title
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Protsent
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item">
+                    Count
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                  <button class="developmend_table__name_item none_table">
+                    Date
+                    <img
+                      src="./assets/icons/arrow-down-table-icon.svg"
+                      alt="img"
+                    />
+                  </button>
+                </div>
+
+                <div class="developmend_table__content">
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+
+                    <p>17,6</p>
+                    <p>2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <p>17,6</p>
+                    <p>2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <p>17,6</p>
+                    <p>2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <p>17,6</p>
+                    <p>2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                  <div class="developmend_table__content_item">
+                    <p>Marketplace</p>
+                    <p>17,6</p>
+                    <p>2,300</p>
+                    <strong>12.Jan.2021</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tables_complex__table">
+              <div class="developmend_table__title pd_for__title">
+                <h2>Complex Table</h2>
+                <div class="chart_box__btn">
+                  <img src="./assets/icons/horizon-icon.svg" alt="icon" />
+                </div>
+              </div>
+
+              <div class="check_table">
+                <div class="check_table__item">
+                  <h2>NAME</h2>
+
+                  <p>Horizon UI PRO</p>
+                  <p>Horizon UI Free</p>
+                  <p>Marketplace</p>
+                  <p>Weekly Updates</p>
+                </div>
+
+                <div class="check_table__item">
+                  <h2>STATUS</h2>
+
+                  <span class="status_line">
+                    <img src="./assets/icons/check-icon.svg" alt="icon" />
+                    <p>Approved</p>
+                  </span>
+                  <span class="status_line">
+                    <img src="./assets/icons/cencel-icon.svg" alt="icon" />
+                    <p>Disable</p>
+                  </span>
+                  <span class="status_line">
+                    <img src="./assets/icons/error-icon.svg" alt="icon" />
+                    <p>Error</p>
+                  </span>
+                  <span class="status_line">
+                    <img src="./assets/icons/check-icon.svg" alt="icon" />
+                    <p>Approved</p>
+                  </span>
+                </div>
+
+                <div class="check_table__item table_quantity">
+                  <h2>DATE</h2>
+
+                  <strong>24.Jan.2021</strong>
+                  <strong>12.Jun.2021</strong>
+                  <strong>5.Jan.2021</strong>
+                  <strong>7.Mar.2021</strong>
+                </div>
+                <div class="check_table__item table_date">
+                  <h2>PROGRESS</h2>
+
+                  <div class="taks_progress">
+                    <span class="progress_active"></span>
+                    <span class="progress_activing"></span>
+                  </div>
+                  <div class="taks_progress">
+                    <span class="progress_active"></span>
+                    <span class="progress_activing"></span>
+                  </div>
+                  <div class="taks_progress">
+                    <span class="progress_active"></span>
+                    <span class="progress_activing"></span>
+                  </div>
+                  <div class="taks_progress">
+                    <span class="progress_active"></span>
+                    <span class="progress_activing"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =====  Content Kanba  ====== -->
+        <div id="kanba" class="container content_box">
+          <!-- Section Head Controll -->
+          <div class="head">
+            <img
+              class="head_logo"
+              src="./assets/icons/logo-icon.svg"
+              alt="logo"
+            />
+
+            <div class="main_content__title">
+              <p>Pages / Kanban</p>
+              <h2>Kanban</h2>
+            </div>
+
+            <ul class="nav_menu">
+              <div class="head_controll__bar">
+                <div class="controll_search">
+                  <img src="./assets/icons/search-icon.svg" alt="search" />
+                  <input type="text" placeholder="Search" />
+                </div>
+
+                <div class="head_controll__bar_main">
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/notification-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="moon_icon"
+                    src="./assets//icons/moon-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/info-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="head_avatar__img"
+                    src="./assets/imgs/avatar-img.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="head_controll__bar controll_none">
+              <div class="controll_search">
+                <img src="./assets/icons/search-icon.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+              </div>
+
+              <div class="head_controll__bar_main">
+                <img
+                  class="same_icons"
+                  src="./assets//icons/notification-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="moon_icon"
+                  src="./assets//icons/moon-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="same_icons"
+                  src="./assets//icons/info-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="head_avatar__img"
+                  src="./assets/imgs/avatar-img.png"
+                  alt="avatar"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="kanban_main">
+            <div class="kanban_backlog">
+              <div class="kanban_title">
+                <h1>Backlog</h1>
+                <button class="kanban_title__btn">
+                  <img
+                    class="kanban_title__icon"
+                    src="./assets/icons/kanban-plus-icon.svg"
+                    alt="icon"
+                  />
+                </button>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Option to "use local/server version" feature</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  It usually displays this message when you close an unsaved
+                  page when you do it on purpose, and it's getting frustrated to
+                  see this every time.
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button class="kanban_backlog__controll_btn">UPDATES</button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Add/modify your own CSS-Selectors</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <img
+                  class="backlog_img"
+                  src="./assets/imgs/backlog-img.png"
+                  alt="img"
+                />
+
+                <p>
+                  Website Design: The ability to add/modify your own
+                  CSS-Selectors like its done in Venus.
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button
+                    class="kanban_backlog__controll_btn kanban_pending__btn"
+                  >
+                    PENDING
+                  </button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Shortcode for templates to display correctly</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  When you save some sections as a template and then paste a
+                  shortcode to a new page, the layout is broken, some styles are
+                  missing - in the editor.
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button
+                    class="kanban_backlog__controll_btn kanban_error__btn"
+                  >
+                    ERROR
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="kanban_progress">
+              <div class="kanban_title">
+                <h1>Progress</h1>
+                <button class="kanban_title__btn">
+                  <img
+                    class="kanban_title__icon"
+                    src="./assets/icons/kanban-plus-icon.svg"
+                    alt="icon"
+                  />
+                </button>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>General ideas to improve 'Edit' workflow</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  Currently, I have a few templates in the Local Library and
+                  when I want to add them I'm always presented (by default).
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button
+                    class="kanban_backlog__controll_btn kanban_pending__btn"
+                  >
+                    PENDING
+                  </button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Shortcode for templates to display correctly</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  When you save some sections as a template and then paste a
+                  shortcode to a new page, the layout is broken, some styles are
+                  missing - in the editor.
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button class="kanban_backlog__controll_btn">UPDATES</button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>[UX Design] - Set the default Library tab</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <img
+                  class="backlog_img"
+                  src="./assets/imgs/progress-img.png"
+                  alt="img"
+                />
+
+                <p>
+                  I want to be able to set the default Library tab (or a way to
+                  remember the last active tab), especially when I already...
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button
+                    class="kanban_backlog__controll_btn kanban_error__btn"
+                  >
+                    ERROR
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="kanban_done">
+              <div class="kanban_title">
+                <h1>Done</h1>
+                <button class="kanban_title__btn">
+                  <img
+                    class="kanban_title__icon"
+                    src="./assets/icons/kanban-plus-icon.svg"
+                    alt="icon"
+                  />
+                </button>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Copy/Paste elements between pages</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  We can only copy/paste elements (or group of elements) in the
+                  same page, which is quite limited.
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button class="kanban_backlog__controll_btn kanba_done__btn">
+                    DONE
+                  </button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Remove Extra DIV for each container added</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  I still hope there won't have an extra div for each container
+                  we added. It should be something for better styling...
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button class="kanban_backlog__controll_btn kanba_done__btn">
+                    DONE
+                  </button>
+                </div>
+              </div>
+
+              <div class="backlog_card">
+                <div class="backlog_card__title">
+                  <h3>Add Figma files for the Library design blocks</h3>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <p>
+                  I want to present my clients the Figma files first, so it
+                  would be great if you add those as well, more manual
+                  downloads...
+                </p>
+
+                <div class="kanban_backlog__controll">
+                  <div class="kanban_backlog__controll_person">
+                    <img
+                      class="kanban_controll__person_img1"
+                      src="./assets/imgs/creator-tab-img1.png"
+                      alt="img"
+                    />
+                    <img
+                      class="kanban_controll__person_img2"
+                      src="./assets/imgs/creator-tab-img3.png"
+                      alt="img"
+                    />
+                  </div>
+                  <button class="kanban_backlog__controll_btn kanba_done__btn">
+                    DONE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =====  Content Profile  ====== -->
+        <div id="profile" class="container content_box">
+          <!-- Section Head Controll -->
+          <div class="head">
+            <img
+              class="head_logo"
+              src="./assets/icons/logo-icon.svg"
+              alt="logo"
+            />
+
+            <div class="main_content__title">
+              <p>Pages / Profile</p>
+              <h2>Profile</h2>
+            </div>
+
+            <ul class="nav_menu">
+              <div class="head_controll__bar">
+                <div class="controll_search">
+                  <img src="./assets/icons/search-icon.svg" alt="search" />
+                  <input type="text" placeholder="Search" />
+                </div>
+
+                <div class="head_controll__bar_main">
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/notification-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="moon_icon"
+                    src="./assets//icons/moon-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/info-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="head_avatar__img"
+                    src="./assets/imgs/avatar-img.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="head_controll__bar controll_none">
+              <div class="controll_search">
+                <img src="./assets/icons/search-icon.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+              </div>
+
+              <div class="head_controll__bar_main">
+                <img
+                  class="same_icons"
+                  src="./assets//icons/notification-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="moon_icon"
+                  src="./assets//icons/moon-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="same_icons"
+                  src="./assets//icons/info-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="head_avatar__img"
+                  src="./assets/imgs/avatar-img.png"
+                  alt="avatar"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="profile_info">
+            <div class="profile_info__main">
+              <div class="profile_main__view">
+                <img
+                  src="./assets/imgs/profile-info-bg-img.png"
+                  alt="profile-img"
+                />
+                <img
+                  class="profile_main__avatar"
+                  src="./assets/imgs/profile-avatar.png"
+                  alt="avatar"
+                />
+              </div>
+
+              <div class="profile_user__info">
+                <h2>Adela Parkson</h2>
+                <p>Product Designer</p>
+              </div>
+
+              <div class="profile_user__social">
+                <div class="profile_user__social_item">
+                  <strong>17</strong>
+                  <p>Post</p>
+                </div>
+                <div class="profile_user__social_item">
+                  <strong>9.7K</strong>
+                  <p>Post</p>
+                </div>
+                <div class="profile_user__social_item">
+                  <strong>274</strong>
+                  <p>Post</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile_storage">
+              <span class="more_btn">
+                <img src="./assets/icons/horizon-icon.svg" alt="icon" />
+              </span>
+
+              <span class="profile_storage__icon">
+                <img src="./assets/icons/storage-icon.svg" alt="" />
+              </span>
+
+              <div class="profile_storage__title">
+                <h1>Your storage</h1>
+                <p>Supervise your drive space in the easiest way</p>
+              </div>
+
+              <div class="storage_memory">
+                <p>25.6 GB</p>
+                <p>50 GB</p>
+              </div>
+
+              <div class="storage_progress">
+                <span class="storage_progress__active"></span>
+                <span class="storage_progress__inactive"></span>
+              </div>
+            </div>
+
+            <div class="profile_publish">
+              <div class="publish_upload">
+                <img
+                  class="publish_upload__icon"
+                  src="./assets/icons/upload-icon.svg"
+                  alt="upload"
+                />
+
+                <h2>Upload File</h2>
+                <p>PNG, JPG and GIF files are allowed</p>
+              </div>
+
+              <div class="publish_des">
+                <h1>Complete your profile</h1>
+                <p>
+                  Stay on the pulse of distributed projects with an anline
+                  whiteboard to plan, coordinate and discuss
+                </p>
+
+                <button>Publish Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile_experience">
+            <div class="profile_project">
+              <h1>All Project</h1>
+              <p>
+                Here you can find more details about your projects. Keep you
+                user engaged by providing meaningful information.
+              </p>
+
+              <div class="profile_projects">
+                <div class="profile_projects__item">
+                  <div class="profile_projects__des">
+                    <img
+                      src="./assets/imgs/profile-project-card-img1.png"
+                      alt="img"
+                    />
+                    <div class="project_main__title">
+                      <h3 class="project_title">Technology behind...</h3>
+                      <p class="project_text">
+                        Project #1
+                        <a class="project_link" href="#">See project detail</a>
+                      </p>
+                    </div>
+                  </div>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <div class="profile_projects__item">
+                  <div class="profile_projects__des">
+                    <img
+                      src="./assets/imgs/profile-project-card-img1.png"
+                      alt="img"
+                    />
+                    <div class="project_main__title">
+                      <h3 class="project_title">Technology behind...</h3>
+                      <p class="project_text">
+                        Project #1
+                        <a class="project_link" href="#">See project detail</a>
+                      </p>
+                    </div>
+                  </div>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+
+                <div class="profile_projects__item">
+                  <div class="profile_projects__des">
+                    <img
+                      src="./assets/imgs/profile-project-card-img1.png"
+                      alt="img"
+                    />
+                    <div class="project_main__title">
+                      <h3 class="project_title">Technology behind...</h3>
+                      <p class="project_text">
+                        Project #1
+                        <a class="project_link" href="#">See project detail</a>
+                      </p>
+                    </div>
+                  </div>
+                  <button>
+                    <img src="./assets/icons/edit-icon.svg" alt="edit" />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile_general">
+              <h1>General Information</h1>
+              <p>
+                As we live, our hearts turn colder. Cause pain is what we go
+                through as we become older. We get insulted by others, lose
+                trust for those others. We get back stabbed by friends. It
+                becomes harder for us to give others a hand. We get our heart
+                broken by people we love, even that we give them all...
+              </p>
+
+              <div class="general_card">
+                <div class="general_card__item">
+                  <p>Education</p>
+                  <h3>Stanford University</h3>
+                </div>
+                <div class="general_card__item">
+                  <p>Languages</p>
+                  <h3>English, Spanish, Italian</h3>
+                </div>
+                <div class="general_card__item">
+                  <p>Department</p>
+                  <h3>Product Design</h3>
+                </div>
+                <div class="general_card__item">
+                  <p>Work History</p>
+                  <h3>Google, Facebook</h3>
+                </div>
+                <div class="general_card__item">
+                  <p>Organization</p>
+                  <h3>Simmmple Web LLC</h3>
+                </div>
+                <div class="general_card__item">
+                  <p>Birthday</p>
+                  <h3>20 July 1986</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile_notifications">
+              <div class="profile_notif__title">
+                <h1>Notifications</h1>
+
+                <button class="profile_notif__btn">
+                  <img src="./assets/icons/horizon-icon.svg" alt="horizon" />
+                </button>
+              </div>
+
+              <div class="notif_main">
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">Item update notifications</p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch1"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch1">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Item comment notifications
+                  </p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch2"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch2">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Buyer review notifications
+                  </p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch3"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch3">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Rating reminders notifications
+                  </p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch4"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch4">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Meetups near you notifications
+                  </p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch5"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch5">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Company news notifications
+                  </p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch6"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch6">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">New launches and projects</p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch7"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch7">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">Monthly product changes</p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch8"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch8">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">Subscribe to newsletter</p>
+                </div>
+                <div class="notif_main__item">
+                  <div class="toggle_switch">
+                    <input
+                      type="checkbox"
+                      id="switch9"
+                      class="toggle_switch__checkbox"
+                    />
+                    <label class="toggle_switch__label" for="switch9">
+                      <span class="toggle_switch__inner"></span>
+                      <span class="toggle_switch__switch"></span>
+                    </label>
+                  </div>
+                  <p class="notif_main__item_text">
+                    Email me when someone follows me
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =====  Content SignIn  ====== -->
+        <div id="signIn" class="content_box">
+          <!-- Section Head Controll -->
+          <div class="head">
+            <img
+              class="head_logo"
+              src="./assets/icons/logo-icon.svg"
+              alt="logo"
+            />
+
+            <div class="main_content__title">
+              <p>Pages / SignIn</p>
+              <h2>SignIn</h2>
+            </div>
+
+            <ul class="nav_menu">
+              <div class="head_controll__bar">
+                <div class="controll_search">
+                  <img src="./assets/icons/search-icon.svg" alt="search" />
+                  <input type="text" placeholder="Search" />
+                </div>
+
+                <div class="head_controll__bar_main">
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/notification-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="moon_icon"
+                    src="./assets//icons/moon-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="same_icons"
+                    src="./assets//icons/info-icon.svg"
+                    alt="notification"
+                  />
+                  <img
+                    class="head_avatar__img"
+                    src="./assets/imgs/avatar-img.png"
+                    alt="avatar"
+                  />
+                </div>
+              </div>
+
+              <div class="nav_content">
+                <button id="dashboardBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/home-icon.svg"
+                    alt="home"
+                  />
+                  Dashboard
+                </button>
+                <button id="marketPlaceBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/market-icon.svg"
+                    alt="home"
+                  />
+                  NFT Marketplace
+                </button>
+                <button id="tablesBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/tables-icon.svg"
+                    alt="home"
+                  />
+                  Tables
+                </button>
+                <button id="kanbaBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/kanban-icon.svg"
+                    alt="home"
+                  />
+                  Kanban
+                </button>
+                <button id="profileBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/profile-icon.svg"
+                    alt="home"
+                  />
+                  Profile
+                </button>
+                <button id="signInBtn" class="nav_content__btn">
+                  <img
+                    class="sidebar_icon"
+                    src="./assets/icons/signIn-icon.svg"
+                    alt="home"
+                  />
+                  Sign In
+                </button>
+              </div>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+            <div class="head_controll__bar controll_none">
+              <div class="controll_search">
+                <img src="./assets/icons/search-icon.svg" alt="search" />
+                <input type="text" placeholder="Search" />
+              </div>
+
+              <div class="head_controll__bar_main">
+                <img
+                  class="same_icons"
+                  src="./assets//icons/notification-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="moon_icon"
+                  src="./assets//icons/moon-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="same_icons"
+                  src="./assets//icons/info-icon.svg"
+                  alt="notification"
+                />
+                <img
+                  class="head_avatar__img"
+                  src="./assets/imgs/avatar-img.png"
+                  alt="avatar"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="signIn_main__box">
+            <div class="overview">
+              <div class="overview_logo">
+                <img src="./assets/icons/horizon-logo-icon.svg" alt="logo" />
+              </div>
+
+              <div class="horizon_ui__logo">
+                <img src="./assets/icons/horizon-ui.svg" alt="icon" />
+              </div>
+
+              <div class="learnmore">
+                <p>Learn more about Horizon UI on</p>
+                <a href="#">horizon-ui.com</a>
+              </div>
+
+              <div class="overview_footer">
+                <div class="overview_footer__link">
+                  <a href="#">Marketplace</a>
+                  <a href="#">License</a>
+                  <a href="#">Terms of Use</a>
+                  <a href="#">Blog</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="signIn_main">
+              <h1>Sign In</h1>
+              <p>Enter your email and password to sign in!</p>
+
+              <button class="google_btn">
+                <img src="./assets/icons/google-icon.svg" alt="icon" />
+                Sign in with Google
+              </button>
+
+              <div class="or_line">
+                <span class="or_line__item"></span>
+                <strong class="or_line__text">or</strong>
+                <span class="or_line__item"></span>
+              </div>
+
+              <div class="signIn_input">
+                <h3 class="signIn_input__label">Email :</h3>
+                <div class="signIn_input__item">
+                  <input type="text" placeholder="Email" />
+                </div>
+              </div>
+
+              <div class="signIn_input">
+                <h3 class="signIn_input__label">Password :</h3>
+                <div class="signIn_input__item">
+                  <input type="text" placeholder="Password" />
+                  <a href="#">
+                    <img src="./assets/icons/eye-icon.svg" alt="eye" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="sigIn_controll">
+                <div class="keep_log">
+                  <div class="checkbox_wrapper">
+                    <label class="checkbox_container">
+                      <input type="checkbox" checked />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <h3>Keep me logged in</h3>
+                </div>
+                <a class="forget_password" href="#">Forget password?</a>
+              </div>
+
+              <button class="signIn_btn">Sign In</button>
+
+              <div class="create_account">
+                <h3>Not yet Register ?</h3>
+                <a href="#">Create an Account</a>
               </div>
             </div>
           </div>
